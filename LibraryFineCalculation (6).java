@@ -12,8 +12,7 @@ public class LibraryFineCalculation {
         Scanner scanner = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-        System.out.println("Name: Nicholas Kyalo");
-        System.out.println("Reg No: S08-8425-2024");
+
         System.out.println("Program: Library Fine Calculation\n");
 
         System.out.print("Enter Book ID: ");
