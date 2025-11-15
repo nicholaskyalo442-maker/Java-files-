@@ -1,0 +1,18 @@
+//NAME: NICHOLAS KYALO 
+//REG NO : S08-8425-2024
+public class VacationCost {
+
+    public static double calculateTotalCost(double accommodationCost, double mealCost, double activityCost) {
+        return accommodationCost + mealCost + activityCost;
+    }
+
+    public static void main(String[] args) {
+
+        double accommodation = 700.50;
+        double meals = 350.25;
+        double activities = 400.00; 
+        double total = calculateTotalCost(accommodation, meals, activities);
+
+       System.out.printf("Total Vacation Cost: $%.2f", total);
+    }
+}
